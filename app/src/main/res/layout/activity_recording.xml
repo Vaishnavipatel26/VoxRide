@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".recording">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/waves"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="voicewaves.json"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:maxWidth="300dp"
+        android:text="Recording File"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll_time"
+        android:layout_centerInParent="true">
+
+        <Chronometer
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="%s"
+            android:textAlignment="center"
+            android:textSize="70sp"
+            android:fontFamily="sans-serif-medium"
+            />
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/playbutton"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="27dp"
+        android:adjustViewBounds="true"
+        android:rotationX="2"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="voice record.json"
+        />
+
+</RelativeLayout>

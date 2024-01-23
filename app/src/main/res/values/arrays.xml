@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="languages_array">
+        <item>English - E</item>
+        <item>हिन्दी - ह</item> <!-- Hindi -->
+        <item>ગુજરાતી - ગ</item> <!-- Gujarati -->
+        <item>मराठी - म</item> <!-- Marathi -->
+        <item>ਪੰਜਾਬੀ - ਪ</item> <!-- Punjabi -->
+        <item>தமிழ் - த</item> <!-- Tamil -->
+        <item>తెలుగు - త</item> <!-- Telugu -->
+        <item>اردو - ا</item> <!-- Urdu -->
+        <item>മലയാളം - മ</item> <!-- Malayalam -->
+        <item>संस्कृत - स</item> <!-- Sanskrit -->
+    </string-array>
+
+    <string-array name="languages_locale">
+        <item>en</item>
+        <item>hi</item> <!-- Hindi -->
+        <item>gu</item> <!-- Gujarati -->
+        <item>mr</item> <!-- Marathi -->
+        <item>pa</item> <!-- Punjabi -->
+        <item>ta</item> <!-- Tamil -->
+        <item>te</item> <!-- Telugu -->
+        <item>ur</item> <!-- Urdu -->
+        <item>ml</item> <!-- Malayalam -->
+        <item>sa</item> <!-- Sanskrit -->
+    </string-array>
+</resources>
